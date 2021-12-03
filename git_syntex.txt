@@ -1,0 +1,91 @@
+1)  To set the username & email in Git using the following command:--
+
+--> git config --global user.name Abhinay  &  git config --global user.email abhinay9919041@gmail.com
+
+2) To check the username and email in Git using the following command:--
+
+--> git config --global user.name  &   git config --global user.email
+
+3) Initialized the git repository use the following command:--
+
+--> git init
+
+4) To show all the hidden folder of the current  directory using the following command:--
+
+-->  ls lart
+
+5)  To check the status of your file of the current directory using the following command:--
+
+--> git status
+
+6)  To create the blank file of the current directory/folder using the following command:--
+
+--> touch filename.extension
+
+7)  To move "from untracked to saged" of your file of the current directory using the following command:--
+
+--> git add file_name.extension (syntex) [ one by one ]
+--> git add -A [ this command combine all file ] 
+
+8)  After add command we are ready to start the tracking of the project we apply the "commit" command which is also known as "initial commit". of your file of the current directory using the following command:--
+
+--> git commit -m "message"
+
+9) To clear the terminal using the following command:--
+
+--> clear
+
+10) Checkout command is used to match the last commit of the modified file and using the following command:--
+
+--> git checkout filename.extension  [ one by one ]
+--> git checkout -f  [ this command combine all file ] 
+
+11)  Git log command is used to tell about "commit" of your file and using the following command:--
+
+--> git log
+
+12) If you want to filter the "git log output" for seeing the more than one "commit" so using the following command:--
+
+--> git log -p -1  (you can provide any number to filter the commit between more than commit)
+
+after this command type "q" to exit out 
+
+13) "Git diff" command is used to compare the "working tree" to "staging area" so using the following command:--
+
+--> git diff
+
+14) If you want to compare the "staging area" to "last commit" so using the following command:--
+
+--> git diff --staged
+
+15) "Git rm" command is used to remove the file from "working directory and staging area" so using the following command:--
+
+--> git rm filename.extension  [ one by one ]
+
+16) "Git rm --cached" command is used to remove the file from "staging area but not working directory" so using the following command:--
+
+--> git rm --cached filename.extension  [ one by one ]
+
+17)  Create the ".gitignore" command is used to "track" only the working file and "ignored" the unnecessary file so using the following command:--
+
+--> touch .gitignore
+
+18) "Git branch" command is used to create the branch so using the following command:--
+
+--> git branch branch_name
+
+and switched from one branch to another branch so using the following command:--
+
+--> git checkout branch_name
+
+and if you want to see how many branch you create and you working on which branch so using the following command:--
+
+--> git branch
+
+19) To merge your created branch with "master" branch use the following command:--
+
+--> git merge branch_name
+
+20) To create new branch and switched directly into that branch so using the following command:--
+
+--> git checkout -b branch_name
